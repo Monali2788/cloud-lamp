@@ -67,59 +67,6 @@ DevOps-Terraform-LAMP-Server/
 
 ---
 
-## 🚀 Getting Started (Copy-Paste Friendly)
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/lavatech321/DevOps-Terraform-LAMP-Server.git
-```
-
-```bash
-cd DevOps-Terraform-LAMP-Server
-```
-
----
-
-### 2️⃣ Verify Project Files
-
-```bash
-ls
-```
-
-Expected output:
-
-```
-code
-docker-compose.yaml
-main.tf
-```
-
----
-
-### 3️⃣ (Optional) Review Terraform Configuration
-
-```bash
-vi main.tf
-```
-
----
-
-### 4️⃣ Initialize Terraform
-
-```bash
-terraform init
-```
-
----
-
-### 5️⃣ Deploy Infrastructure and Application
-
-```bash
-terraform apply --auto-approve
-```
-
----
 
 ## ✅ Sample Terraform Output
 
@@ -146,27 +93,6 @@ SSH Key location: ~/.ssh/id_rsa
 
 ---
 
-## 🌐 Access the Application
-
-* **Frontend & Backend Application**
-
-  ```
-  http://<PUBLIC_IP>:3000
-  ```
-
-* **MySQL Database Access**
-
-  ```bash
-  mysql -uappuser -papppass appdb
-  ```
-
-* **Check Running Containers**
-
-  ```bash
-  docker compose ps -a
-  ```
-
----
 
 ## 🎯 Learning Objectives
 
@@ -180,32 +106,7 @@ By completing this project, learners will gain hands-on experience with:
 
 ---
 
-## 👥 Who Should Use This Project
 
-* DevOps beginners
-* Terraform learners
-* Docker & containerization learners
-* Full-stack developers learning DevOps
-
----
-
-## ⚠️ Important Notes
-
-* AWS credentials must be configured before running Terraform
-* This project is intended for **learning and demonstration purposes only**
-* Avoid using hardcoded credentials in production environments
-
----
-
-## 🧹 Cleanup (Optional)
-
-To destroy all created resources:
-
-```bash
-terraform destroy --auto-approve
-```
-
----
 
 ## ⭐ Final Summary
 
