@@ -93,17 +93,6 @@ SSH Key location: ~/.ssh/id_rsa
 
 ---
 
-
-## 🎯 Learning Objectives
-
-By completing this project, learners will gain hands-on experience with:
-
-* Terraform-based infrastructure provisioning
-* AWS EC2 resource management
-* Docker and Docker Compose
-* Deploying React + Spring Boot + MySQL
-* End-to-end DevOps workflows
-
 ---
 
 
