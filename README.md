@@ -97,10 +97,4 @@ SSH Key location: ~/.ssh/id_rsa
 
 
 
-## ⭐ Final Summary
 
-This repository provides a **complete hands-on DevOps project** demonstrating how infrastructure and applications are deployed together using Terraform and Docker Compose.
-
-It closely mirrors real-world scenarios where DevOps engineers bridge the gap between development and production.
-
-Happy Learning 🚀
